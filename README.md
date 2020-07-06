@@ -3,6 +3,7 @@ Pytorch code of the ICASSP 2020 paper "Generating and Protecting Against Adversa
 
 # Data and Task
 Database： the Database of Elicited Mood in Speech (DEMoS) 
+
 Task: seven-class classification
 
 # Preparation
@@ -23,22 +24,34 @@ dependencies:
 sh runme.sh
 
 In runme.sh, please run the following files for different tasks:
+
 1. feature extraction: utils/features.py
+
 2. training a model, and evaluation: main_pytorch.py
+
   - the folder 'pytorch' is corresponding to vanilla adversarial Training
+  
   - the folder 'pytorch-similarity' is corresponding to Similarity-based Adversarial Training
+  
   - Please revise the '$BACKEND' to the folder name 'pytorch' or 'pytorch-similarity' in runme.sh, regarding the method which is achieved
   
 # Cite
 If the user referred the code, please cite our paper,
 
 @inproceedings{ren2020generating,
+
 title     =   {{Generating and protecting against adversarial attacks for deep speech-based emotion recognition models}},
+
 author    =   {Ren, Zhao and Baird, Alice and Han, Jing and Zhang, Zixing and Schuller, Bj{\"o}rn},
+
 address   =   {Barcelona, Spain},
+
 Booktitle =   {Proc.\ ICASSP},
+
 Year      =   {2020},
+
 pages     =   {7184--7188}
+
 }
 
 
