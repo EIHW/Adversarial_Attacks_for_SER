@@ -60,7 +60,7 @@ pages     =   {7184--7188}
 
 Zhao Ren
 
-ZD.B chair of Embedded Intelligence for Health Care and Wellbeing
+Chair of Embedded Intelligence for Health Care and Wellbeing
 
 University of Augsburg
 
